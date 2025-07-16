@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepayan - Machine Learning Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="stars"></div>
+        <div class="earth-container">
+            <div class="earth"></div>
+            <div class="moon-orbit">
+                <div class="moon"></div>
+            </div>
+        </div>
+        <div class="floating-particles"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Deepayan.Thakur</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+                <span class="menu-line"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero visible">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-frame-css">
+                        <div class="blob blob-1"></div>
+                        <div class="blob blob-2"></div>
+                        <div class="blob blob-3"></div>
+                        <div class="blob blob-4"></div>
+                        <img src="Assets/profile_pic4.jpg" alt="Profile Picture" class="profile-img" />
+                    </div>
+
+                    <div class="hero-text">
+                        <h1>Hi, I'm Deepayan Thakur</h1>
+                        <p class="subtitle"><span id="typewriter"></span><span class="cursor"></span></p>
+                        <p>I build intelligent systems that solve real-world problems. Passionate about AI, data
+                            science, and creating innovative solutions that make a difference.</p>
+                        <div class="cta-buttons">
+                            <a href="#projects" class="btn btn-primary">View My Work</a>
+                            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        </div>
+                        <div class="status-indicator">
+                            <div class="status-dot"></div>
+                            <span>Available for new opportunities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate Machine Learning Engineer with 5+ years of experience in developing
+                            AI-powered solutions. I specialize in deep learning, computer vision, and natural language
+                            processing.</p>
+                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                            projects, or sharing knowledge through technical blog posts.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">MLflow</span>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 id="projectsCount" data-target="25">0</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3 id="experienceCount" data-target="5">0</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3 id="contributionsCount" data-target="150">0</h3>
+                            <p>GitHub Contributions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">TensorFlow</span>
+                            <span class="skill-item">PyTorch</span>
+                            <span class="skill-item">Scikit-learn</span>
+                            <span class="skill-item">Keras</span>
+                            <span class="skill-item">OpenCV</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">R</span>
+                            <span class="skill-item">SQL</span>
+                            <span class="skill-item">Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">HTML5</span>
+                            <span class="skill-item">CSS3</span>
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">FastAPI</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Cloud & Tools</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">AWS</span>
+                            <span class="skill-item">Docker</span>
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">MLflow</span>
+                            <span class="skill-item">Jupyter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>AI-Powered Chatbot</h3>
+                        <p>A conversational AI system built with transformer models and deployed on AWS. Features
+                            real-time responses, context awareness, and multi-language support.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <br>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">Live Demo</a>
+                            <a href="#" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Computer Vision Analytics</h3>
+                        <p>Real-time object detection and tracking system for retail analytics. Processes video streams
+                            to provide insights on customer behavior and inventory management.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">YOLO</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <br>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">Live Demo</a>
+                            <a href="#" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Predictive Analytics Dashboard</h3>
+                        <p>Interactive dashboard for time series forecasting and anomaly detection. Built with React
+                            frontend and Python backend, featuring real-time data visualization.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Plotly</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <br>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link">Live Demo</a>
+                            <a href="#" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                    <div class="social-links-contact">
+                        <a href="#" target="_blank" class="social-link">GitHub</a>
+                        <a href="#" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="#" target="_blank" class="social-link">Twitter / X</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2025 Deepayan Thakur. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <a href="#top" class="scroll-top" id="scrollTopBtn">
+        <span>↑</span>
+    </a>
+
+    <!-- Notification Container -->
+    <div id="notification-container"></div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
