@@ -5,7 +5,7 @@ This site brings together my **projects, skills, resume, and contact info** in o
 
 ## 🔥 Live Preview
 
-👉 [Visit the Portfolio Website](#)
+👉 [Visit the Portfolio Website](https://deepayan-thakur.github.io/Portfolio/)
 
 ---
 
